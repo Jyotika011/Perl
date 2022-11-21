@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+print"\n\n....Reverse compliment Program....\n\n";
+$dna=ATGCTTGGACATAGA;
+$rev=reverse $dna;
+$rev=~tr/ATGC/TACG/;   # translates all characters of Search List into the corresponding characters of Replacement List.
+print "Original dna sequence: $dna \n";
+print "Reverse compliment: $rev \n\n";
